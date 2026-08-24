@@ -24,7 +24,7 @@ export const experience = [
   },
   {
     period: "2023 — 2025",
-    role: "Auxiliar N2 → Analista de Redes",
+    role: "Auxiliar de Suporte Técnico N2 → Analista de Redes Júnior",
     company: "Alares Internet",
     type: "Telecom / NOC",
     bullets: [
