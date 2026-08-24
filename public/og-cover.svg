@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050B13"/>
+      <stop offset="1" stop-color="#0B1A2D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63E7FF"/>
+      <stop offset="1" stop-color="#5D8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="120" r="250" fill="#63E7FF" opacity=".06"/>
+  <circle cx="100" cy="560" r="250" fill="#8F73FF" opacity=".06"/>
+  <text x="90" y="205" fill="#7E94A9" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">SAMUEL GUIGO</text>
+  <text x="90" y="300" fill="#F4FBFF" font-family="Arial, sans-serif" font-size="72" font-weight="700">Infrastructure.</text>
+  <text x="90" y="385" fill="url(#accent)" font-family="Arial, sans-serif" font-size="72" font-weight="700">Networks.</text>
+  <text x="90" y="470" fill="#F4FBFF" font-family="Arial, sans-serif" font-size="72" font-weight="700">Observability.</text>
+  <text x="92" y="540" fill="#8EA4BA" font-family="Arial, sans-serif" font-size="24">Portfólio técnico • Redes • Infraestrutura • Monitoramento</text>
+</svg>

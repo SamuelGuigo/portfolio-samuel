@@ -1,0 +1,37 @@
+PORTFÓLIO SAMUEL — CHECKLIST FINAL
+
+PRONTO
+[OK] Layout responsivo
+[OK] Experiência profissional
+[OK] Auron Tech na timeline
+[OK] 4 formações acadêmicas
+[OK] GitHub SamuelGuigo conectado
+[OK] Projeto Zabbix Dell conectado ao GitHub
+[OK] Cases com desafio, abordagem, resultado e stack
+[OK] SEO / favicon / Open Graph
+[OK] GitHub Actions para Pages
+[OK] Links não configurados ficam ocultos
+
+OPCIONAL ANTES DE PUBLICAR
+[ ] Adicionar e-mail
+[ ] Adicionar LinkedIn
+[ ] Informar instituição da pós em Engenharia de Redes
+[ ] Informar instituição da pós em Cybersecurity
+[ ] Adicionar screenshots anonimizados aos principais cases
+[ ] Corrigir/organizar a estrutura interna do repositório Dell no GitHub
+[ ] Publicar o portfólio no GitHub Pages
+
+
+SECURITY HARDENING V8
+[OK] .gitignore defensivo
+[OK] Scanner local de secrets/dados de ambiente
+[OK] Scanner automático antes do build
+[OK] GitHub Actions de segurança
+[OK] npm audit para vulnerabilidades High/Critical
+[OK] Dependabot configurado
+[OK] SECURITY.md
+[OK] Checklist de publicação segura
+[OK] CSP no HTML
+[OK] Referrer Policy no HTML
+[OK] Fontes externas removidas
+[OK] Dados de frontend marcados explicitamente como públicos

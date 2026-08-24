@@ -1,0 +1,43 @@
+CHECKLIST RAPIDO — PUBLICAR NO GITHUB
+
+1. Preencha:
+   src\data\profile.js
+
+2. Abra PowerShell nesta pasta.
+
+3. Rode:
+   git init
+   git add .
+   git commit -m "feat: novo portfolio tecnico"
+   git branch -M main
+
+4. Crie um repositório vazio no GitHub.
+
+5. Copie a URL e rode:
+   git remote add origin URL_DO_REPOSITORIO
+   git push -u origin main
+
+6. No GitHub:
+   Settings > Pages > Build and deployment > Source > GitHub Actions
+
+7. Faça qualquer novo push para main.
+
+O deploy será automático.
+
+ANTES DO PRIMEIRO PUSH
+
+1. Rode:
+   npm run security:audit
+
+2. Revise:
+   git status
+   git diff --cached
+
+3. No GitHub, depois de criar o repositório:
+   Settings > Security
+   - habilite Dependabot alerts, quando disponível;
+   - habilite Dependabot security updates, quando disponível;
+   - habilite secret scanning / push protection, quando disponível no plano/repositório.
+
+4. Não suba prints ou documentos de clientes sem passar pelo
+   PUBLICATION-CHECKLIST.md.
