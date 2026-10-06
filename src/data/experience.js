@@ -30,9 +30,9 @@ export const experience = [
   },
   {
     period: "Mar/2024 — Jul/2025",
-    role: "Analista de Redes",
+    role: "Analista de Redes Jr.",
     company: "Alares Internet",
-    type: "Telecom / NOC",
+    type: "Promoção interna em mar/2024 | Telecom / NOC",
     bullets: [
       "Monitoramento proativo de POPs, backbone, OLTs, switches, roteadores, links e serviços em operação distribuída por aproximadamente 48 cidades e 140 mil clientes.",
       "Análise de incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até normalização.",
