@@ -10,6 +10,48 @@ export const projectCategories = [
 
 export const projects = [
   {
+    id: "proxmox-zfs-migration",
+    category: "Virtualization",
+    kind: "Projeto profissional sanitizado",
+    title: "Migração VMware → Proxmox & Storage ZFS",
+    summary:
+      "Migração controlada de workloads para Proxmox VE, criação de cluster, adaptação de VMs Windows/Linux e integração com storage TrueNAS/ZFS.",
+    stack: ["Proxmox VE", "VMware ESXi", "KVM/QEMU", "VirtIO", "TrueNAS", "ZFS"],
+    outcome: "~28,9 TiB úteis em RAIDZ2",
+    challenge:
+      "Evoluir a plataforma de virtualização preservando continuidade operacional, compatibilidade dos guests e uma rota segura de rollback durante a transição.",
+    approach: [
+      "Criação e validação do cluster Proxmox.",
+      "Adaptação de VMs com VirtIO e QEMU Guest Agent.",
+      "Implantação de TrueNAS com 6 discos SAS de 8 TB em JBOD e RAIDZ2.",
+      "Validação SMART, integridade ZFS e conectividade de storage.",
+      "Migração por etapas com validação de boot, rede, serviços e ativação do Windows."
+    ],
+    result:
+      "Host definitivo em Proxmox operacional, storage ZFS disponibilizado para uso inicial e workloads migrados/validados por etapas, mantendo pendências de produção separadas do que já foi concluído."
+  },
+  {
+    id: "industrial-ring",
+    category: "Networking",
+    kind: "Projeto profissional sanitizado",
+    visual: "switching",
+    title: "Comissionamento de Anel Ethernet Industrial",
+    summary:
+      "Configuração de switches industriais e validação local de um anel de rede para comunicação OT.",
+    stack: ["Siemens", "Industrial Ethernet", "VLAN", "Redundância", "Switching"],
+    outcome: "Anel funcional e validado localmente",
+    challenge:
+      "Colocar a camada de switching industrial em condição funcional sem confundir validação local com aceite final de produção.",
+    approach: [
+      "Configuração dos switches previstos para o anel.",
+      "Validação de conectividade entre os trechos.",
+      "Testes locais de funcionamento após a configuração.",
+      "Separação entre resultado técnico obtido e documentação/SAT ainda pendentes."
+    ],
+    result:
+      "Switches configurados e anel funcionando em validação local; documentação final e SAT mantidos como marcos posteriores."
+  },
+  {
     id: "zabbix-dell",
     category: "Monitoring",
     kind: "Projeto publicado",
@@ -30,6 +72,26 @@ export const projects = [
     ],
     result:
       "Template estabilizado e publicado com documentação técnica, changelog, política de segurança e YAML reutilizável, preservando métricas operacionais relevantes sem expor dados do ambiente."
+  },
+  {
+    id: "wazuh-monitoring",
+    category: "Security",
+    kind: "Implementação inicial / laboratório",
+    title: "Wazuh — Monitoramento de Segurança",
+    summary:
+      "Implantação inicial do Wazuh em ambiente corporativo de laboratório para agentes, inventário e acompanhamento de vulnerabilidades.",
+    stack: ["Wazuh", "Windows", "Linux", "Syscollector", "Vulnerability Detection"],
+    outcome: "Base de monitoramento implantada",
+    challenge:
+      "Validar a tecnologia de segurança sem apresentar como concluídos processos de SOC, resposta, cobertura 24×7 ou integrações ainda não homologadas.",
+    approach: [
+      "Instalação e organização inicial de agentes.",
+      "Exploração de inventário de hardware/software com Syscollector.",
+      "Uso do módulo de vulnerabilidades para acompanhamento técnico.",
+      "Separação explícita entre laboratório, produção e arquitetura futura de SOC."
+    ],
+    result:
+      "Wazuh implantado como base técnica de segurança; expansão de cobertura, tuning, runbooks e demais integrações permanecem em evolução."
   },
   {
     id: "mac-flapping",
@@ -55,22 +117,22 @@ export const projects = [
   {
     id: "observability",
     category: "Monitoring",
-    kind: "Arquitetura",
-    title: "Plataforma de Observabilidade",
+    kind: "Prática profissional",
+    title: "Observabilidade de Infraestrutura",
     summary:
-      "Arquitetura centralizada para disponibilidade, desempenho, alertas e visualização de ativos de infraestrutura.",
-    stack: ["Zabbix", "Grafana", "SNMP", "Agents", "MySQL"],
-    outcome: "Visibilidade centralizada",
+      "Monitoramento de disponibilidade, desempenho e capacidade com Zabbix, Grafana, agentes e SNMP em ambientes de servidores e rede.",
+    stack: ["Zabbix", "Grafana", "SNMP", "Agents", "iLO"],
+    outcome: "Visibilidade operacional",
     challenge:
-      "Consolidar em uma única camada operacional a saúde de servidores, switches, firewalls e serviços.",
+      "Restabelecer e manter coleta confiável em ativos heterogêneos, distinguindo comunicação do agente da saúde integral do serviço.",
     approach: [
+      "Troubleshooting de agentes e registros residuais de serviço.",
       "Coleta via SNMP e agentes.",
-      "Templates orientados por tipo de ativo.",
-      "Triggers e alertas para eventos críticos.",
-      "Dashboards para disponibilidade, capacidade e tendência."
+      "Dashboards e análise de disponibilidade/capacidade.",
+      "Classificação de alertas e validação após correções."
     ],
     result:
-      "Modelo de observabilidade capaz de centralizar indicadores técnicos e reduzir tempo de diagnóstico."
+      "Monitoramento restabelecido em cenários de falha e maior visibilidade de servidores, interfaces e hardware."
   },
   {
     id: "rack-standardization",
@@ -79,20 +141,19 @@ export const projects = [
     visual: "rack",
     title: "Padronização de Rack & Cabeamento",
     summary:
-      "Planejamento de rack orientado a manutenção, identificação, expansão e separação adequada de dados, energia e fibra.",
-    stack: ["Rack", "Patch Panel", "DIO", "Etiquetagem", "Cabeamento"],
-    outcome: "Manutenção previsível",
+      "Levantamento, inventário, rastreamento de conexões e planejamento de reorganização física de datacenter.",
+    stack: ["Rack", "Patch Panel", "DIO", "Etiquetagem", "Cabeamento", "Fibra"],
+    outcome: "46 ativos + 23 novos IDs",
     challenge:
-      "Ambiente com alta densidade de ativos e necessidade de reorganização sem prejudicar manutenção e crescimento futuro.",
+      "Reorganizar um ambiente de alta densidade sem perder rastreabilidade de portas, interligações e dependências durante o cutover.",
     approach: [
       "Mapeamento físico de ativos e portas.",
-      "Planejamento de patch panels e organizadores.",
-      "Padronização de identificação e sequência de portas.",
-      "Separação de rotas para dados, energia e fibra.",
-      "Reserva de capacidade para expansão."
+      "Criação de 23 novos IDs e rastreamento de três interligações.",
+      "Identificação de aproximadamente 90% das portas de três switches no estágio documentado.",
+      "Planejamento de patch panels, organizadores, fibra, materiais e janelas de mudança."
     ],
     result:
-      "Arquitetura física documentada e preparada para execução com foco em manutenibilidade."
+      "Inventário e plano de execução significativamente refinados, com os marcos de execução final, as-built e aceite mantidos como pendências separadas."
   },
   {
     id: "fiber-troubleshooting",
@@ -142,7 +203,7 @@ export const projects = [
     title: "Virtualização & Backup",
     summary:
       "Ambiente voltado a hosts, VMs, redes virtuais, proteção de workloads e recuperação.",
-    stack: ["VMware", "Hyper-V", "Proxmox", "Veeam"],
+    stack: ["VMware", "Hyper-V", "Proxmox", "Veeam", "Iperius"],
     outcome: "Ambiente reproduzível",
     challenge:
       "Praticar criação, proteção e recuperação de workloads em diferentes plataformas de virtualização.",
@@ -162,14 +223,14 @@ export const projects = [
     title: "Serviços Windows & Linux",
     summary:
       "Laboratórios de serviços de infraestrutura, troubleshooting de sistema e automação operacional.",
-    stack: ["Windows Server", "Linux", "AD", "DNS", "DHCP", "PowerShell"],
+    stack: ["Windows Server", "Linux", "AD", "DNS", "WSUS", "Aptly", "PowerShell"],
     outcome: "Fundação de serviços",
     challenge:
       "Consolidar domínio prático sobre os serviços que sustentam ambientes corporativos.",
     approach: [
       "Serviços de diretório e autenticação.",
-      "DNS e DHCP.",
-      "Administração de Linux.",
+      "DNS, WSUS e distribuição de atualizações.",
+      "Administração de Linux e repositórios APT.",
       "Automação e troubleshooting com PowerShell."
     ],
     result:
