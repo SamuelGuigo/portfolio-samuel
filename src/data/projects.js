@@ -18,6 +18,7 @@ export const projects = [
       "Migração controlada de workloads para Proxmox VE, criação de cluster, adaptação de VMs Windows/Linux e integração com storage TrueNAS/ZFS.",
     stack: ["Proxmox VE", "VMware ESXi", "KVM/QEMU", "VirtIO", "TrueNAS", "ZFS"],
     outcome: "~28,9 TiB úteis em RAIDZ2",
+    github: "https://github.com/SamuelGuigo/Portfolio-Tecnico-Samuel-Guigo/tree/main/cases/proxmox-virtualization-migration",
     challenge:
       "Evoluir a plataforma de virtualização preservando continuidade operacional, compatibilidade dos guests e uma rota segura de rollback durante a transição.",
     approach: [
@@ -40,6 +41,7 @@ export const projects = [
       "Configuração de switches industriais e validação local de um anel de rede para comunicação OT.",
     stack: ["Siemens", "Industrial Ethernet", "VLAN", "Redundância", "Switching"],
     outcome: "Anel funcional e validado localmente",
+    github: "https://github.com/SamuelGuigo/Portfolio-Tecnico-Samuel-Guigo/tree/main/cases/industrial-ring-commissioning",
     challenge:
       "Colocar a camada de switching industrial em condição funcional sem confundir validação local com aceite final de produção.",
     approach: [
@@ -82,6 +84,7 @@ export const projects = [
       "Implantação inicial do Wazuh em ambiente corporativo de laboratório para agentes, inventário e acompanhamento de vulnerabilidades.",
     stack: ["Wazuh", "Windows", "Linux", "Syscollector", "Vulnerability Detection"],
     outcome: "Base de monitoramento implantada",
+    github: "https://github.com/SamuelGuigo/Portfolio-Tecnico-Samuel-Guigo/tree/main/cases/soc-mvp-architecture",
     challenge:
       "Validar a tecnologia de segurança sem apresentar como concluídos processos de SOC, resposta, cobertura 24×7 ou integrações ainda não homologadas.",
     approach: [
@@ -144,6 +147,7 @@ export const projects = [
       "Levantamento, inventário, rastreamento de conexões e planejamento de reorganização física de datacenter.",
     stack: ["Rack", "Patch Panel", "DIO", "Etiquetagem", "Cabeamento", "Fibra"],
     outcome: "46 ativos + 23 novos IDs",
+    github: "https://github.com/SamuelGuigo/Portfolio-Tecnico-Samuel-Guigo/tree/main/cases/data-center-rack-infrastructure-planning",
     challenge:
       "Reorganizar um ambiente de alta densidade sem perder rastreabilidade de portas, interligações e dependências durante o cutover.",
     approach: [
