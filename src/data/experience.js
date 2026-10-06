@@ -3,34 +3,54 @@ export const experience = [
     period: "Jul/2026 — Atual",
     role: "Analista de Infraestrutura Pleno",
     company: "EGE Soluções",
-    type: "Infraestrutura corporativa",
+    type: "Infraestrutura corporativa, datacenter, redes, segurança e OT",
     bullets: [
-      "Sustentação e evolução de ambientes de infraestrutura, redes e monitoramento.",
-      "Atuação com Linux, Windows Server, VLAN, DNS, DHCP, firewalls e virtualização.",
-      "Troubleshooting de incidentes, documentação técnica e projetos de infraestrutura física e lógica."
+      "Implantação e sustentação de ambientes Windows/Linux, redes, virtualização, storage, monitoramento e serviços de infraestrutura em cenários corporativos e industriais/OT.",
+      "Migração de plataforma VMware ESXi para Proxmox VE 9, com clusterização, adaptação de VMs, VirtIO/QEMU Guest Agent e validação de rede, storage e continuidade operacional.",
+      "Implantação de TrueNAS/ZFS com 6 discos SAS de 8 TB em JBOD e RAIDZ2 (~28,9 TiB úteis), incluindo SMART, integridade ZFS e integração ao ambiente de virtualização.",
+      "Administração de Windows Server 2022 Datacenter, Active Directory/DNS, WSUS, NTP/Syslog, Linux/Aptly, backup Iperius/QNAP, licenciamento e acesso remoto seguro.",
+      "Configuração e validação local de switches Siemens e anel Ethernet industrial; troubleshooting de CRC/FCS, MAC flapping, STP/LACP, VLANs, uplinks, negociação e redundância.",
+      "Implantação inicial do Wazuh e atuação em análise de vulnerabilidades de infraestrutura, avaliando aplicabilidade e riscos em SMB, TLS, OpenSSH, NGINX, certificados, ESXi e ativos OT.",
+      "Liderança técnica em reorganização de datacenter: 46 ativos identificados, 23 novos IDs, três interligações rastreadas e ~90% das portas de três switches identificadas no estágio documentado.",
+      "Documentação técnica contínua com inventário, evidências, planos de mudança, rollback, runbooks, critérios de aceite e as-built."
     ]
   },
   {
-    period: "Jan/2025 — Jul/2026",
+    period: "Jan/2025 — Atual",
     role: "Fundador & Consultor de Infraestrutura",
     company: "Auron Tech",
     type: "Consultoria própria",
     bullets: [
-      "Atendimento técnico a empresas com suporte remoto e presencial, redes e infraestrutura.",
-      "Projetos com MikroTik, pfSense, FortiGate, VPN, Windows Server, Active Directory e serviços de rede.",
-      "Monitoramento com Zabbix e Grafana, virtualização, backup, cabeamento e documentação técnica.",
-      "Atuação paralela iniciada em 2025 e dedicação principal no período entre a saída da Alares e a entrada na EGE."
+      "Projetos de infraestrutura para PMEs e ambientes residenciais/premium, do levantamento e desenho lógico/físico à implantação, testes, documentação e suporte pós-entrega.",
+      "Configuração e troubleshooting de MikroTik RouterOS com DHCP, NAT, VLANs, firewall, rotas, failover, WireGuard/VPN, LAN/WAN e links dedicados.",
+      "Projetos de switching/PoE, Wi-Fi profissional interno/externo, rack, nobreak, PDU, segmentação de rede e integração com CFTV, automação e dispositivos IP quando aplicável.",
+      "Atuação com pfSense/FortiGate, Windows Server/Active Directory, Linux, Proxmox, backup, Zabbix/Grafana e documentação de infraestrutura.",
+      "Elaboração de propostas técnicas, dimensionamento de equipamentos, escopo de serviços, homologação e atendimento recorrente a clientes."
     ]
   },
   {
-    period: "2023 — 2025",
-    role: "Auxiliar de Suporte Técnico N2 → Analista de Redes Júnior",
+    period: "Mar/2024 — Jul/2025",
+    role: "Analista de Redes",
     company: "Alares Internet",
     type: "Telecom / NOC",
     bullets: [
-      "Monitoramento e operação de redes de telecom em ambiente de grande escala.",
-      "Troubleshooting, análise de alarmes e sustentação de ambientes de rede.",
-      "Uso de plataformas de monitoramento e ferramentas operacionais de provedor."
+      "Monitoramento proativo de POPs, backbone, OLTs, switches, roteadores, links e serviços em operação distribuída por aproximadamente 48 cidades e 140 mil clientes.",
+      "Análise de incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até normalização.",
+      "Troubleshooting via CLI em ambiente multivendor com MikroTik, Huawei, ZTE, Nokia e demais equipamentos de rede/FTTH.",
+      "Suporte a links dedicados e clientes corporativos/governamentais, com análise de rotas, conectividade, provisionamento e articulação com campo/backbone.",
+      "Escalonamento técnico, registro de incidentes e apoio às equipes de campo e suporte avançado em cenários críticos."
+    ]
+  },
+  {
+    period: "Jan/2023 — Mar/2024",
+    role: "Auxiliar de Suporte Técnico N2",
+    company: "Alares Internet",
+    type: "Suporte N2, FTTH e redes de acesso",
+    bullets: [
+      "Diagnóstico N2 de lentidão, instabilidade, quedas e degradação para clientes residenciais e corporativos, com testes, histórico, tickets e escalonamento.",
+      "Atuação com FTTH, GPON/EPON, ONTs/ONUs, provisionamento, níveis ópticos, OLTs, fibra, CTO, DIO, backbone e rede externa.",
+      "Suporte e troubleshooting de CFTV IP e Controle de Acesso IP, além de atendimento a técnicos de campo durante tratativas.",
+      "Vivência prática com equipamentos Huawei, ZTE, Nokia, Parks, FiberHome, Intelbras e MikroTik."
     ]
   },
   {
@@ -39,18 +59,21 @@ export const experience = [
     company: "Azza",
     type: "Suporte & infraestrutura",
     bullets: [
-      "Suporte técnico N2 e evolução para atividades de infraestrutura e redes.",
-      "Atendimento de incidentes e sustentação de ambiente corporativo."
+      "Atuação em suporte N2, sustentação de ambiente corporativo e troubleshooting de estações, conectividade, redes e serviços de TI.",
+      "Evolução para atividades de infraestrutura e redes, ampliando responsabilidade sobre diagnóstico técnico e continuidade do ambiente.",
+      "Atendimento de incidentes, documentação e escalonamento técnico conforme criticidade e dependências."
     ]
   },
   {
-    period: "2021 — 2022",
+    period: "Set/2021 — Ago/2022",
     role: "Analista de TI",
     company: "Hospital Municipal",
-    type: "TI generalista",
+    type: "TI generalista em ambiente hospitalar crítico",
     bullets: [
-      "Suporte de infraestrutura, estações, servidores, impressoras e rede local.",
-      "Administração de ambiente Windows Server e equipamentos de rede."
+      "Responsável pelo atendimento de TI local, sustentando aproximadamente 30 estações e mais de 25 impressoras, além de usuários, sistemas e conectividade.",
+      "Administração de Windows Server 2008, Active Directory, usuários, permissões, compartilhamentos e rotinas de backup.",
+      "Suporte N1 ao sistema hospitalar, manutenção de PCs/impressoras, instalação de drivers/aplicações, formatação e resolução de falhas de hardware/software.",
+      "Atuação em racks, cabeamento, pontos de rede, switches/roteadores, câmeras e melhorias de infraestrutura física e lógica."
     ]
   }
 ];
@@ -97,16 +120,16 @@ export const technicalEducation = [
   {
     title: "Firewalls & Segurança",
     status: "FORMAÇÃO TÉCNICA",
-    detail: "FortiGate, pfSense, políticas de firewall, VPN e segmentação."
+    detail: "FortiGate, pfSense, políticas de firewall, VPN, segmentação e Wazuh."
   },
   {
     title: "Observabilidade & Monitoramento",
     status: "FORMAÇÃO TÉCNICA",
-    detail: "Zabbix, Grafana, SNMP, templates, discovery e alertas."
+    detail: "Zabbix, Grafana, SNMP/LLD, templates, discovery, alertas e NetBox."
   },
   {
     title: "Sistemas, Virtualização & Backup",
     status: "FORMAÇÃO TÉCNICA",
-    detail: "Linux, Windows Server, Proxmox, VMware, Hyper-V, Veeam e automação operacional."
+    detail: "Linux, Windows Server, Proxmox, VMware, Hyper-V, TrueNAS/ZFS, Iperius e Veeam."
   }
 ];
