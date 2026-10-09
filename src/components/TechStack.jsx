@@ -1,26 +1,26 @@
 const groups = [
   {
-    title: "Networking",
+    title: "Redes",
     items: ["Cisco", "MikroTik", "Huawei", "VLAN", "STP", "LACP", "IPv6", "VPN"]
   },
   {
-    title: "Observability",
+    title: "Monitoramento",
     items: ["Zabbix", "Grafana", "SNMP", "Agents", "Templates", "Discovery"]
   },
   {
-    title: "Systems",
-    items: ["Windows Server", "Linux", "AD", "DNS", "DHCP", "PowerShell"]
+    title: "Sistemas",
+    items: ["Windows Server", "Linux", "AD", "DNS", "WSUS", "Aptly", "PowerShell"]
   },
   {
-    title: "Virtualization",
-    items: ["VMware", "Hyper-V", "Proxmox", "Veeam", "Containers"]
+    title: "Virtualização",
+    items: ["VMware", "Proxmox", "VirtIO", "QEMU Guest Agent", "TrueNAS/ZFS", "Docker"]
   },
   {
-    title: "Security",
-    items: ["FortiGate", "pfSense", "RouterOS", "Firewall", "WireGuard"]
+    title: "Segurança",
+    items: ["Wazuh", "Sysmon", "FIM", "SEP/SEPM", "Firewall", "WireGuard"]
   },
   {
-    title: "Infrastructure",
+    title: "Infraestrutura",
     items: ["Rack", "Patch Panel", "Fibra", "DIO", "Cabeamento", "Etiquetagem"]
   }
 ];

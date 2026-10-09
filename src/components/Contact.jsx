@@ -9,10 +9,11 @@ export default function Contact() {
       <div className="container contact-card">
         <div>
           <p className="section-label">CONTATO</p>
-          <h2>Vamos falar de infraestrutura?</h2>
+          <h2>Vamos conversar sobre uma oportunidade técnica?</h2>
           <p>
-            Redes, observabilidade, troubleshooting, datacenter, virtualização e
-            projetos de infraestrutura.
+            Infraestrutura, redes, virtualização, monitoramento, segurança e
+            troubleshooting. Entre em contato para conversar sobre projetos,
+            colaboração técnica ou oportunidades profissionais.
           </p>
 
           <div className="location">

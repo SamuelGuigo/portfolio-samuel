@@ -6,7 +6,7 @@ export default function About() {
       <div className="container about-grid">
         <div>
           <p className="section-label">SOBRE</p>
-          <h2>Infraestrutura vista como sistema, não como peças soltas.</h2>
+          <h2>Da configuração à validação do ambiente.</h2>
         </div>
 
         <div className="about-copy">
@@ -18,9 +18,10 @@ export default function About() {
           </p>
 
           <p>
-            O objetivo deste portfólio é registrar projetos com contexto,
-            decisões técnicas, evidências anonimizadas e resultado operacional —
-            mostrando como cada tecnologia foi aplicada, e não apenas listada.
+            Sou fundador da Auron Tech e também atuo em equipes de infraestrutura
+            corporativa e industrial. Este portfólio reúne minha experiência
+            técnica, com a origem, as atividades e o estágio de cada entrega
+            identificados.
           </p>
 
           <a className="text-link" href="#contato">

@@ -10,32 +10,32 @@ const items = [
   {
     icon: Network,
     number: "01",
-    title: "Networking",
+    title: "Redes",
     text: "VLAN, STP, LACP, routing, VPN, switching e troubleshooting de camada 2/3."
   },
   {
     icon: Server,
     number: "02",
-    title: "Infrastructure",
+    title: "Infraestrutura",
     text: "Windows Server, Linux, serviços de rede, storage e infraestrutura corporativa."
   },
   {
     icon: Activity,
     number: "03",
-    title: "Monitoring",
+    title: "Monitoramento",
     text: "Zabbix, Grafana, SNMP, agents, templates, discovery, alertas e dashboards."
   },
   {
     icon: Boxes,
     number: "04",
-    title: "Virtualization",
+    title: "Virtualização",
     text: "VMware, Hyper-V, Proxmox, redes virtuais, backup e continuidade."
   },
   {
     icon: ShieldCheck,
     number: "05",
-    title: "Security",
-    text: "FortiGate, pfSense, MikroTik, firewall, VPN e segmentação."
+    title: "Segurança",
+    text: "Wazuh, SEP/SEPM, firewall, VPN e segmentação."
   }
 ];
 
@@ -49,8 +49,8 @@ export default function Expertise() {
             <h2>Infraestrutura que precisa funcionar.</h2>
           </div>
           <p>
-            Mais do que listar tecnologias, o objetivo é mostrar como elas se
-            conectam na operação real.
+            Configuração, diagnóstico, validação e documentação nas camadas
+            que sustentam servidores, serviços e conectividade.
           </p>
         </div>
 

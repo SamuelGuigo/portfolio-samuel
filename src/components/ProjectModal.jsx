@@ -58,12 +58,18 @@ export default function ProjectModal({ project, onClose }) {
         )}
 
         <div className="modal-section">
-          <span>DESAFIO</span>
+          <span>PROBLEMA</span>
           <p>{project.challenge}</p>
         </div>
 
         <div className="modal-section">
-          <span>ABORDAGEM</span>
+          <span>ESCOPO E ORIGEM</span>
+          <p>{project.scope}</p>
+          <p>{project.origin}</p>
+        </div>
+
+        <div className="modal-section">
+          <span>ATIVIDADES QUE EXECUTEI</span>
           <ul>
             {project.approach.map((item) => (
               <li key={item}>
@@ -80,7 +86,12 @@ export default function ProjectModal({ project, onClose }) {
         </div>
 
         <div className="modal-section">
-          <span>STACK</span>
+          <span>ESTADO DA ENTREGA</span>
+          <ul>{project.limits.map((item) => <li key={item}>{item}</li>)}</ul>
+        </div>
+
+        <div className="modal-section">
+          <span>TECNOLOGIAS</span>
           <div className="tag-list large">
             {project.stack.map((item) => (
               <span key={item}>{item}</span>
@@ -89,8 +100,8 @@ export default function ProjectModal({ project, onClose }) {
         </div>
 
         <div className="detail-note">
-          Evidências visuais podem ser adicionadas de forma anonimizada:
-          topologia, screenshots sanitizados, gráficos e documentação técnica.
+          Diagramas são ilustrativos. Dados e imagens privados de clientes
+          permanecem fora do portfólio público.
         </div>
       </article>
     </div>

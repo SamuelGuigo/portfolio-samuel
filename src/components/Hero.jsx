@@ -25,11 +25,11 @@ export default function Hero() {
           <p className="hero-kicker">{profile.name.toUpperCase()}</p>
 
           <h1>
-            Infrastructure.
+            Infraestrutura.
             <br />
-            <span>Networks.</span>
+            <span>Redes.</span>
             <br />
-            Observability.
+            Segurança.
           </h1>
 
           <p className="hero-role">{profile.role}</p>
@@ -74,10 +74,10 @@ export default function Hero() {
           <div className="network-card">
             <div className="network-card-head">
               <div>
-                <span>OPERATIONS VIEW</span>
+                <span>VISÃO DE INFRAESTRUTURA</span>
                 <strong>Infraestrutura em perspectiva</strong>
               </div>
-              <div className="live-indicator">LIVE</div>
+              <div className="live-indicator">ILUSTRATIVO</div>
             </div>
 
             <div className="network-map">

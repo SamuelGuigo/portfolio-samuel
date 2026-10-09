@@ -21,11 +21,12 @@ export default function Projects() {
         <div className="section-heading">
           <div>
             <p className="section-label">PROJETOS & CASES</p>
-            <h2>Prova prática, não buzzword.</h2>
+            <h2>Projetos, atividades e resultados documentados.</h2>
           </div>
           <p>
-            Cases descritos por desafio, abordagem e resultado — com projetos
-            públicos conectados ao GitHub quando houver repositório disponível.
+            Cases com problema, escopo, atividades, tecnologias e resultado.
+            Os recortes de infraestrutura detalham frentes do mesmo projeto;
+            laboratórios e etapas pendentes estão identificados.
           </p>
         </div>
 

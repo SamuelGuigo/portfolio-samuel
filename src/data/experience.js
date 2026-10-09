@@ -5,14 +5,14 @@ export const experience = [
     company: "EGE Soluções",
     type: "Infraestrutura corporativa, datacenter, redes, segurança e OT",
     bullets: [
-      "Implantação e sustentação de ambientes Windows/Linux, redes, virtualização, storage, monitoramento e serviços de infraestrutura em cenários corporativos e industriais/OT.",
-      "Migração de plataforma VMware ESXi para Proxmox VE 9, com clusterização, adaptação de VMs, VirtIO/QEMU Guest Agent e validação de rede, storage e continuidade operacional.",
-      "Implantação de TrueNAS/ZFS com 6 discos SAS de 8 TB em JBOD e RAIDZ2 (~28,9 TiB úteis), incluindo SMART, integridade ZFS e integração ao ambiente de virtualização.",
-      "Administração de Windows Server 2022 Datacenter, Active Directory/DNS, WSUS, NTP/Syslog, Linux/Aptly, backup Iperius/QNAP, licenciamento e acesso remoto seguro.",
-      "Configuração e validação local de switches Siemens e anel Ethernet industrial; troubleshooting de CRC/FCS, MAC flapping, STP/LACP, VLANs, uplinks, negociação e redundância.",
-      "Implantação inicial do Wazuh e atuação em análise de vulnerabilidades de infraestrutura, avaliando aplicabilidade e riscos em SMB, TLS, OpenSSH, NGINX, certificados, ESXi e ativos OT.",
-      "Liderança técnica em reorganização de datacenter: 46 ativos identificados, 23 novos IDs, três interligações rastreadas e ~90% das portas de três switches identificadas no estágio documentado.",
-      "Documentação técnica contínua com inventário, evidências, planos de mudança, rollback, runbooks, critérios de aceite e as-built."
+      "Implanto e sustento ambientes Windows/Linux, redes, virtualização, storage, monitoramento e serviços de infraestrutura em cenários corporativos e industriais/OT.",
+      "Preparei VMware ESXi e VMs Windows/Linux e depois migrei o ambiente para Proxmox VE, com cluster de transição, VirtIO/QEMU Guest Agent e validação de boot, rede e serviços.",
+      "Implantei TrueNAS/ZFS com 6 discos SAS de 8 TB em JBOD e RAIDZ2 (~28,9 TiB úteis), incluindo SMART, integridade ZFS e integração ao ambiente de virtualização.",
+      "Configurei Windows Server, AD/DNS, Ubuntu/Aptly e bases NTP/Syslog; trabalhei com WSUS, licenciamento e acesso remoto. A integração final Iperius/QNAP e o teste de restauração permaneciam pendentes no fechamento.",
+      "Configurei switches Siemens e validei localmente o anel industrial; investiguei CRC/FCS, MAC flapping, VLANs e uplinks e avaliei redundância STP/LACP conforme cada cenário.",
+      "Implantei Wazuh e validei agentes, Sysmon, FIM Windows e alertas por evento controlado; distribuí SEP remotamente aos Windows e analisei aplicabilidade de achados de segurança em infraestrutura.",
+      "Mapeei ativos e conexões e planejei reorganização de racks: 46 ativos identificados, 23 novos IDs, três interligações rastreadas e ~90% das portas de três switches identificadas no estágio documentado.",
+      "Documentei atividades e resultados com inventário, evidências, planos de mudança, rollback, runbooks, critérios de aceite e as-built."
     ]
   },
   {
@@ -21,11 +21,11 @@ export const experience = [
     company: "Auron Tech",
     type: "Consultoria própria",
     bullets: [
-      "Projetos de infraestrutura para PMEs e ambientes residenciais/premium, do levantamento e desenho lógico/físico à implantação, testes, documentação e suporte pós-entrega.",
-      "Configuração e troubleshooting de MikroTik RouterOS com DHCP, NAT, VLANs, firewall, rotas, failover, WireGuard/VPN, LAN/WAN e links dedicados.",
-      "Projetos de switching/PoE, Wi-Fi profissional interno/externo, rack, nobreak, PDU, segmentação de rede e integração com CFTV, automação e dispositivos IP quando aplicável.",
-      "Atuação com pfSense/FortiGate, Windows Server/Active Directory, Linux, Proxmox, backup, Zabbix/Grafana e documentação de infraestrutura.",
-      "Elaboração de propostas técnicas, dimensionamento de equipamentos, escopo de serviços, homologação e atendimento recorrente a clientes."
+      "Desenvolvo projetos de infraestrutura e propostas para PMEs e ambientes residenciais, com levantamento, desenho, escopo, implantação e validação conforme a etapa contratada.",
+      "Configuro e investigo falhas em MikroTik RouterOS com DHCP, NAT, VLANs, firewall, rotas, failover, WireGuard/VPN, LAN/WAN e links dedicados.",
+      "Dimensiono switching/PoE, Wi-Fi interno/externo, rack, nobreak e segmentação em propostas técnicas, considerando dispositivos IP e integrações conforme o escopo.",
+      "Atuo em configuração e troubleshooting de redes, Windows/Linux, virtualização e monitoramento; registro escopo e validações de cada atendimento.",
+      "Elaboro propostas, dimensiono equipamentos, defino escopo e presto atendimento recorrente a clientes."
     ]
   },
   {
@@ -34,11 +34,11 @@ export const experience = [
     company: "Alares Internet",
     type: "Promoção interna em mar/2024 | Telecom / NOC",
     bullets: [
-      "Monitoramento proativo de POPs, backbone, OLTs, switches, roteadores, links e serviços em operação distribuída por aproximadamente 48 cidades e 140 mil clientes.",
-      "Análise de incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até normalização.",
-      "Troubleshooting via CLI em ambiente multivendor com MikroTik, Huawei, ZTE, Nokia e demais equipamentos de rede/FTTH.",
-      "Suporte a links dedicados e clientes corporativos/governamentais, com análise de rotas, conectividade, provisionamento e articulação com campo/backbone.",
-      "Escalonamento técnico, registro de incidentes e apoio às equipes de campo e suporte avançado em cenários críticos."
+      "Monitorei POPs, backbone, OLTs, switches, roteadores, links e serviços em operação distribuída de telecom.",
+      "Analisei incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até normalização.",
+      "Investiguei falhas via CLI em ambiente multivendor com MikroTik, Huawei, ZTE, Nokia e demais equipamentos de rede/FTTH.",
+      "Prestei suporte a links dedicados, com análise de rotas, conectividade, provisionamento e articulação com campo/backbone.",
+      "Escalei e registrei incidentes e apoiei equipes de campo e suporte avançado em cenários críticos."
     ]
   },
   {
@@ -47,10 +47,10 @@ export const experience = [
     company: "Alares Internet",
     type: "Suporte N2, FTTH e redes de acesso",
     bullets: [
-      "Diagnóstico N2 de lentidão, instabilidade, quedas e degradação para clientes residenciais e corporativos, com testes, histórico, tickets e escalonamento.",
-      "Atuação com FTTH, GPON/EPON, ONTs/ONUs, provisionamento, níveis ópticos, OLTs, fibra, CTO, DIO, backbone e rede externa.",
-      "Suporte e troubleshooting de CFTV IP e Controle de Acesso IP, além de atendimento a técnicos de campo durante tratativas.",
-      "Vivência prática com equipamentos Huawei, ZTE, Nokia, Parks, FiberHome, Intelbras e MikroTik."
+      "Executei diagnóstico N2 de lentidão, instabilidade, quedas e degradação para clientes residenciais e corporativos, com testes, histórico, tickets e escalonamento.",
+      "Trabalhei com FTTH, GPON/EPON, ONTs/ONUs, provisionamento, níveis ópticos, OLTs, fibra, CTO, DIO, backbone e rede externa.",
+      "Prestei suporte e investiguei falhas em CFTV IP e controle de acesso IP, apoiando técnicos de campo.",
+      "Trabalhei com equipamentos Huawei, ZTE, Nokia, Parks, FiberHome, Intelbras e MikroTik."
     ]
   },
   {
@@ -59,9 +59,9 @@ export const experience = [
     company: "Azza",
     type: "Suporte & infraestrutura",
     bullets: [
-      "Atuação em suporte N2, sustentação de ambiente corporativo e troubleshooting de estações, conectividade, redes e serviços de TI.",
-      "Evolução para atividades de infraestrutura e redes, ampliando responsabilidade sobre diagnóstico técnico e continuidade do ambiente.",
-      "Atendimento de incidentes, documentação e escalonamento técnico conforme criticidade e dependências."
+      "Atendi suporte N2, sustentei ambientes corporativos e investiguei falhas de estações, redes e serviços de TI.",
+      "Passei a atuar em infraestrutura e redes, com diagnóstico técnico e sustentação do ambiente.",
+      "Atendi e documentei incidentes e realizei escalonamento conforme criticidade e dependências."
     ]
   },
   {
@@ -70,10 +70,10 @@ export const experience = [
     company: "Hospital Municipal",
     type: "TI generalista em ambiente hospitalar crítico",
     bullets: [
-      "Responsável pelo atendimento de TI local, sustentando aproximadamente 30 estações e mais de 25 impressoras, além de usuários, sistemas e conectividade.",
-      "Administração de Windows Server 2008, Active Directory, usuários, permissões, compartilhamentos e rotinas de backup.",
-      "Suporte N1 ao sistema hospitalar, manutenção de PCs/impressoras, instalação de drivers/aplicações, formatação e resolução de falhas de hardware/software.",
-      "Atuação em racks, cabeamento, pontos de rede, switches/roteadores, câmeras e melhorias de infraestrutura física e lógica."
+      "Atendi TI local, usuários, estações, impressoras, sistemas e conectividade em ambiente hospitalar.",
+      "Administrei Windows Server 2008, Active Directory, usuários, permissões, compartilhamentos e rotinas de backup.",
+      "Prestei suporte N1 ao sistema hospitalar, fiz manutenção de PCs/impressoras e corrigi falhas de hardware/software.",
+      "Trabalhei em racks, cabeamento, pontos de rede, switches/roteadores, câmeras e melhorias de infraestrutura."
     ]
   }
 ];

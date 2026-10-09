@@ -4,9 +4,9 @@
 export const profile = {
   name: "Samuel Guigo",
   role: "Analista de Infraestrutura Pleno",
-  headline: "Infrastructure. Datacenter. Networks. Security. OT.",
+  headline: "Infraestrutura, redes e segurança com atuação prática.",
   summary:
-    "Infraestrutura corporativa e industrial com atuação em datacenter, virtualização, redes, Windows/Linux, storage, observabilidade, segurança e troubleshooting.",
+    "Implanto servidores e serviços Windows/Linux, configuro redes, executo migrações e investigo falhas. Minha experiência reúne virtualização, storage, monitoramento, segurança e infraestrutura industrial, com validação e documentação das entregas.",
 
   // Preencha quando quiser exibir estes contatos no portfólio.
   // Enquanto permanecerem vazios, os botões correspondentes não aparecem.
@@ -27,7 +27,7 @@ export const profile = {
     "Siemens",
     "Zabbix",
     "Wazuh",
-    "NetBox"
+    "SEP / SEPM"
   ]
 };
 
