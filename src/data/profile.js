@@ -4,9 +4,9 @@
 export const profile = {
   name: "Samuel Guigo",
   role: "Analista de Infraestrutura Pleno",
-  headline: "Infraestrutura, redes e segurança com atuação prática.",
+  headline: "Projetos de infraestrutura, redes e segurança.",
   summary:
-    "Implanto servidores e serviços Windows/Linux, configuro redes, executo migrações e investigo falhas. Minha experiência reúne virtualização, storage, monitoramento, segurança e infraestrutura industrial, com validação e documentação das entregas.",
+    "Conduzo projetos e frentes técnicas de infraestrutura, com definição de soluções, dimensionamento, execução e validação. Minha trajetória reúne TI hospitalar, telecom, consultoria, redes, servidores Windows/Linux, virtualização, storage, monitoramento e segurança em ambientes corporativos e industriais.",
 
   // Preencha quando quiser exibir estes contatos no portfólio.
   // Enquanto permanecerem vazios, os botões correspondentes não aparecem.

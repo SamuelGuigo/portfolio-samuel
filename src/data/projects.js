@@ -10,11 +10,44 @@ export const projectCategories = [
 
 export const projects = [
   {
+    "id": "linux-backup-lifecycle-automation",
+    "category": "Infraestrutura",
+    "kind": "Projeto profissional",
+    "title": "Linux SQL Backup Lifecycle Automation",
+    "summary": "Automatizei a transferência de backups SQL em Linux com Bash e systemd, controles de capacidade e validação byte a byte.",
+    "stack": [
+      "Linux",
+      "Bash",
+      "systemd",
+      "SQL backups",
+      "Storage",
+      "cmp"
+    ],
+    "outcome": "Primeiro ciclo agendado validado; raiz de 89% para 29%",
+    "challenge": "O acúmulo de dumps SQL na raiz de um servidor de monitoramento exigia transferência manual para outro volume e criava risco de esgotamento.",
+    "scope": "Diagnóstico de capacidade, migração controlada, automação da transferência e limpeza histórica manual autorizada em etapa separada.",
+    "approach": [
+      "Investiguei consumo e montagens e transferi cinco dumps, comparando origem e destino byte a byte antes de remover os originais.",
+      "Configurei controles de idade, preservação dos dois backups recentes, montagem, capacidade, exclusividade e integridade, com serviço e timer systemd.",
+      "Executei separadamente a limpeza manual de 29 históricos sob um critério de corte autorizado.",
+      "Validei o primeiro disparo agendado, arquivo no destino, ausência na origem, capacidade e próximo agendamento."
+    ],
+    "result": "Raiz de 89% para 29% após a migração inicial; cerca de 233 GB recuperados no volume histórico por limpeza manual separada. O primeiro ciclo automático transferiu e validou um dump.",
+    "limits": [
+      "Comparação byte a byte comprova integridade da transferência; o teste de restauração SQL permanecia pendente.",
+      "A rotina automática não exclui históricos do volume de arquivo.",
+      "Normalização do alerta original e avaliação de memória/I/O permaneciam pendentes.",
+      "Os números descrevem checkpoints documentados, sem promessa de SLA ou ausência total de impacto."
+    ],
+    "origin": "Experiência profissional em equipe; contratação distinta da Auron Tech.",
+    "github": "https://github.com/SamuelGuigo/Portfolio-Tecnico-Samuel-Guigo/tree/main/cases/linux-backup-lifecycle-automation"
+  },
+  {
     "id": "enterprise-infrastructure-handover-2026",
     "category": "Virtualização",
     "kind": "Projeto profissional",
     "title": "Implantação de infraestrutura: VMware, serviços e migração para Proxmox",
-    "summary": "Implantei a plataforma VMware, provisionei VMs Windows/Linux e depois migrei o ambiente para Proxmox, com serviços, rede, storage, monitoramento e segurança.",
+    "summary": "Conduzi frentes técnicas de infraestrutura, do dimensionamento e preparação dos serviços à migração VMware → Proxmox, com sistemas, rede, storage, monitoramento e segurança.",
     "stack": [
       "VMware ESXi",
       "vCenter",
@@ -121,7 +154,7 @@ export const projects = [
     "id": "vmware-virtual-infrastructure",
     "category": "Virtualização",
     "kind": "Etapa de projeto profissional",
-    "title": "Implantação inicial de infraestrutura VMware",
+    "title": "Infraestrutura VMware e preparação de serviços",
     "summary": "Preparei o VMware ESXi, criei VMs Windows/Linux e configurei recursos e conectividade para serviços corporativos.",
     "stack": [
       "HPE ProLiant",
@@ -510,8 +543,8 @@ export const projects = [
     "id": "data-center-rack-infrastructure-planning",
     "category": "Infraestrutura",
     "kind": "Projeto profissional",
-    "title": "Mapeamento e planejamento de reorganização de racks",
-    "summary": "Mapeei ativos e conexões, especifiquei materiais e organizei as etapas de mudança dos racks.",
+    "title": "Condução técnica e reorganização de racks",
+    "summary": "Conduzo o projeto, sou autor do layout executivo e defino solução, materiais e sequência de reorganização dos racks, com apoio da equipe na execução.",
     "stack": [
       "Rack",
       "Cabeamento estruturado",
@@ -520,17 +553,19 @@ export const projects = [
       "Fibra",
       "Inventário"
     ],
-    "outcome": "Levantamento e plano entregues; execução final pendente",
+    "outcome": "Projeto em andamento; condução técnica e intervenções parciais documentadas",
     "challenge": "Reorganizar racks e cabeamento com rastreabilidade das conexões e acesso adequado para manutenção.",
     "scope": "Inventário, rastreamento físico, layout, caminhos de cabos, especificação de materiais e plano de execução por janela.",
     "approach": [
+      "Conduzo as decisões técnicas e sou autor do layout executivo dos racks.",
+      "Defino solução física, materiais e preparação das etapas, com execução em equipe.",
       "Identifiquei equipamentos e rastreei conexões em campo.",
       "Registrei relações entre portas, patch panels e interligações.",
       "Planejei layout, organizadores, eletrocalhas, fibra e materiais.",
       "Separei tarefas físicas das mudanças com impacto em serviços.",
       "Atualizei inventário e documentação conforme o levantamento."
     ],
-    "result": "Inventário e plano refinados. O registro existente do site documenta 46 ativos, 23 novos IDs, três interligações rastreadas e aproximadamente 90% das portas de três switches identificadas no estágio do levantamento.",
+    "result": "Layout executivo, inventário e plano refinados sob minha condução, com intervenções parciais registradas. O registro existente do site documenta 46 ativos, 23 novos IDs, três interligações rastreadas e aproximadamente 90% das portas de três switches identificadas no estágio do levantamento.",
     "limits": [
       "Esses números são do levantamento documentado, não do aceite final.",
       "Reorganização física restante, as-built e validação pós-mudança permaneciam pendentes."
