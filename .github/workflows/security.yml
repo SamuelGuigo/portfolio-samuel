@@ -41,10 +41,11 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Audit dependencies
         run: npm audit --audit-level=high
 
       - name: Production build
         run: npm run build
+
