@@ -8,10 +8,9 @@ export const profile = {
   summary:
     "Conduzo projetos e frentes técnicas de infraestrutura, com definição de soluções, dimensionamento, execução e validação. Minha trajetória reúne TI hospitalar, telecom, consultoria, redes, servidores Windows/Linux, virtualização, storage, monitoramento e segurança em ambientes corporativos e industriais.",
 
-  // Preencha quando quiser exibir estes contatos no portfólio.
-  // Enquanto permanecerem vazios, os botões correspondentes não aparecem.
-  email: "",
-  linkedin: "",
+  // Contatos profissionais conferidos no currículo de referência.
+  email: "samuel.guigo@hotmail.com",
+  linkedin: "https://www.linkedin.com/in/samuelguigo",
 
   github: "https://github.com/SamuelGuigo",
   location: "São Paulo, Brasil",

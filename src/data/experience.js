@@ -30,48 +30,29 @@ export const experience = [
     ]
   },
   {
-    period: "Mar/2024 — Jul/2025",
-    role: "Analista de Redes Jr.",
+    period: "2022 — Jul/2025",
+    role: "Analista de Redes Jr. | Evolução do Suporte N2 ao NOC",
     company: "Alares Internet",
-    type: "Promoção interna em mar/2024 | Telecom / NOC",
+    type: "Trajetória iniciada na Azza e unificada após a incorporação pela Alares",
     bullets: [
-      "Monitorei POPs, backbone, OLTs, switches, roteadores, links e serviços em operação distribuída de telecom.",
-      "Analisei incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até normalização.",
-      "Investiguei falhas via CLI em ambiente multivendor com MikroTik, Huawei, ZTE, Nokia e demais equipamentos de rede/FTTH.",
-      "Prestei suporte a links dedicados, com análise de rotas, conectividade, provisionamento e articulação com campo/backbone.",
-      "Escalei e registrei incidentes e apoiei equipes de campo e suporte avançado em cenários críticos."
-    ]
-  },
-  {
-    period: "Jan/2023 — Mar/2024",
-    role: "Auxiliar de Suporte Técnico N2",
-    company: "Alares Internet",
-    type: "Suporte N2, FTTH e redes de acesso",
-    bullets: [
-      "Executei diagnóstico N2 de lentidão, instabilidade, quedas e degradação para clientes residenciais e corporativos, com testes, histórico, tickets e escalonamento.",
-      "Trabalhei com FTTH, GPON/EPON, ONTs/ONUs, provisionamento, níveis ópticos, OLTs, fibra, CTO, DIO, backbone e rede externa.",
-      "Prestei suporte e investiguei falhas em CFTV IP e controle de acesso IP, apoiando técnicos de campo.",
-      "Trabalhei com equipamentos Huawei, ZTE, Nokia, Parks, FiberHome, Intelbras e MikroTik."
-    ]
-  },
-  {
-    period: "2022 — 2023",
-    role: "Auxiliar N2 → Analista Jr",
-    company: "Azza",
-    type: "Suporte & infraestrutura",
-    bullets: [
-      "Atendi suporte N2, sustentei ambientes corporativos e investiguei falhas de estações, redes e serviços de TI.",
-      "Passei a atuar em infraestrutura e redes, com diagnóstico técnico e sustentação do ambiente.",
-      "Atendi e documentei incidentes e realizei escalonamento conforme criticidade e dependências."
+      "Iniciei a trajetória no suporte técnico em 2022, na operação então denominada Azza. Na Alares, atuei como Auxiliar de Suporte Técnico N2 de jan/2023 a mar/2024 e fui promovido a Analista de Redes Jr. em mar/2024, permanecendo até jul/2025.",
+      "Monitorei POPs, backbone, OLTs, switches, roteadores, links e serviços em operação de telecom distribuída por cerca de 48 cidades e 140 mil clientes, incluindo responsabilidade pelo monitoramento no turno noturno.",
+      "Analisei incidentes massivos, indisponibilidade, atenuação, rompimentos, latência e perda de pacotes via AMS, Zabbix e Grafana, acompanhando tratativas até a normalização.",
+      "Investiguei falhas via CLI em ambiente multivendor com MikroTik, Huawei, ZTE, Nokia e equipamentos de rede/FTTH; trabalhei também com Parks, FiberHome e Intelbras.",
+      "Prestei suporte a links dedicados, com análise de rotas, conectividade, provisionamento e articulação com campo e backbone.",
+      "Executei diagnóstico N2 de lentidão, instabilidade e quedas para clientes residenciais e corporativos, com testes, histórico, tickets e escalonamento.",
+      "Trabalhei com FTTH, GPON/EPON, ONTs/ONUs, provisionamento, níveis ópticos, OLTs, fibra, CTO, DIO e rede externa.",
+      "Prestei suporte e investiguei falhas em dispositivos e integrações IP, incluindo CFTV e controle de acesso, apoiando técnicos de campo.",
+      "Documentei incidentes, priorizei demandas conforme impacto e apoiei suporte avançado e equipes de campo em cenários críticos."
     ]
   },
   {
     period: "Set/2021 — Ago/2022",
-    role: "Analista de TI",
+    role: "Analista de TI — Responsável local pela operação",
     company: "Hospital Municipal",
     type: "TI generalista em ambiente hospitalar crítico",
     bullets: [
-      "Atendi TI local, usuários, estações, impressoras, sistemas e conectividade em ambiente hospitalar.",
+      "Fui responsável local pela sustentação de TI do hospital, com atendimento a aproximadamente 30 estações e mais de 25 impressoras, usuários, sistemas e conectividade.",
       "Administrei Windows Server 2008, Active Directory, usuários, permissões, compartilhamentos e rotinas de backup.",
       "Prestei suporte N1 ao sistema hospitalar, fiz manutenção de PCs/impressoras e corrigi falhas de hardware/software.",
       "Trabalhei em racks, cabeamento, pontos de rede, switches/roteadores, câmeras e melhorias de infraestrutura."
@@ -114,9 +95,9 @@ export const technicalEducation = [
   },
   {
     title: "Cisco Networking Academy — CCNAv7",
-    status: "CONCLUÍDO",
+    status: "EM ANDAMENTO",
     detail:
-      "Formação CCNAv7 concluída em 27/06/2026, com estudos de networking, switching, routing, wireless e segurança."
+      "Estudos de networking, switching, routing, wireless e segurança; formação ainda não concluída."
   },
   {
     title: "MikroTik & RouterOS",
